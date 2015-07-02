@@ -25,7 +25,7 @@ class ViewController : UIViewController {
     {
         //背景を白色にする
         self.view.backgroundColor = UIColor.whiteColor()
-        //OSフラグ
+        //OS
         var deviceOS:Float = NKDevice().deviceOS
         //端末モデル名取得
         var deviceModel:String = NKDevice().deviceModel.model()
