@@ -35,6 +35,8 @@ class AppDelegate : UIResponder, UIApplicationDelegate{
         let viewController = ViewController();
         //ルートビューコントローラーの指定
         self.window!.rootViewController = viewController;
+        //Windowの表示
+        self.window?.makeKeyAndVisible()
         return true
     }
 }

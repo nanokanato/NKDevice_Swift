@@ -16,7 +16,7 @@ import UIKit
 ======================================================================*/
 class NKDevice : NSObject {
     
-    //端末情報
+    //端末情報(端末が増えるごとに追加してください)
     enum DeviceList:Int {
         case iPod5_1
         case iPhone3_1
@@ -280,6 +280,4 @@ class NKDevice : NSObject {
         }
         return device
     }
-    
-    
 }
