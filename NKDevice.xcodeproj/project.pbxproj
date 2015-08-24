@@ -12,11 +12,11 @@
 		301F1FCF1B450BD700611567 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301F1FCB1B450BD700611567 /* Default-736h@3x.png */; };
 		301F1FD01B450BD700611567 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301F1FCC1B450BD700611567 /* Default@2x.png */; };
 		301F1FD21B450BDE00611567 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301F1FD11B450BDE00611567 /* Images.xcassets */; };
-		301F1FDA1B450BE400611567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1FD51B450BE400611567 /* AppDelegate.swift */; };
 		301F1FDB1B450BE400611567 /* NKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1FD81B450BE400611567 /* NKDevice.swift */; };
 		301F1FDC1B450BE400611567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1FD91B450BE400611567 /* ViewController.swift */; };
 		301F1FDF1B450E0500611567 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 301F1FDD1B450E0500611567 /* LICENSE */; };
 		301F1FE01B450E0500611567 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 301F1FDE1B450E0500611567 /* README.md */; };
+		3060F33D1B69BF6D0004B499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060F33C1B69BF6D0004B499 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		301F1FCB1B450BD700611567 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		301F1FCC1B450BD700611567 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		301F1FD11B450BDE00611567 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		301F1FD51B450BE400611567 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		301F1FD81B450BE400611567 /* NKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKDevice.swift; sourceTree = "<group>"; };
 		301F1FD91B450BE400611567 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		301F1FDD1B450E0500611567 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		301F1FDE1B450E0500611567 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3060F33C1B69BF6D0004B499 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,19 +110,11 @@
 		301F1FD31B450BE400611567 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				301F1FD41B450BE400611567 /* Boot */,
+				3060F33C1B69BF6D0004B499 /* AppDelegate.swift */,
 				301F1FD91B450BE400611567 /* ViewController.swift */,
 				301F1FD61B450BE400611567 /* Library */,
 			);
 			path = Swift;
-			sourceTree = "<group>";
-		};
-		301F1FD41B450BE400611567 /* Boot */ = {
-			isa = PBXGroup;
-			children = (
-				301F1FD51B450BE400611567 /* AppDelegate.swift */,
-			);
-			path = Boot;
 			sourceTree = "<group>";
 		};
 		301F1FD61B450BE400611567 /* Library */ = {
@@ -219,7 +211,7 @@
 				301F1FDC1B450BE400611567 /* ViewController.swift in Sources */,
 				301F1FDB1B450BE400611567 /* NKDevice.swift in Sources */,
 				301F1FE01B450E0500611567 /* README.md in Sources */,
-				301F1FDA1B450BE400611567 /* AppDelegate.swift in Sources */,
+				3060F33D1B69BF6D0004B499 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

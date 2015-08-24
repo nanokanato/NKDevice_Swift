@@ -25,8 +25,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate{
     ;                               : launchOptions(NSDictionary?)
     ;                           out : Bool
     ------------------------------------------------------------------*/
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool
-    {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         //ウィンドウの生成
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         //ウィンドウの背景色を白にする
